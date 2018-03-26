@@ -1,0 +1,8 @@
+.idea/
+cmake-build-debug/
+CMakeLists.txt
+/build/
+/target/
+__pycache__
+*.pyc
+/pyqstore/venv

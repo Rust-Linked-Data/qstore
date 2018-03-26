@@ -1,0 +1,23 @@
+[package]
+name = "qstore"
+version = "0.1.0"
+authors = ["Ashley Sommer <ashleysommer@gmail.com>"]
+
+[lib]
+name="qstore"
+crate-type = ["cdylib", "lib"]
+
+
+[dependencies]
+uuid = { version = "0.6", features = ["v4"] }
+
+[dependencies.pyo3]
+version = "0.2"
+optional = true
+
+[features]
+python = ["pyo3"]
+context-aware = []
+
+
+
